@@ -11,7 +11,6 @@ export default function App() {
 
   function menuClickHandler(option) {
     var meaning = menuList[option];
-
     setMeaning(meaning);
   }
 
@@ -27,7 +26,7 @@ export default function App() {
       })}
       <ul>
         {meaning.map((items) => {
-          return <li>{items}</li>;
+          return <li> {items}</li>;
         })}
       </ul>
     </div>
