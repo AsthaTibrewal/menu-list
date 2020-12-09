@@ -5,4 +5,11 @@
 button {
   padding: 0.5rem;
   margin-left: 1rem;
+  background-color: #fee2e2;
+}
+body {
+  background-color: #ddd6fe;
+}
+ul {
+  list-style: none;
 }
